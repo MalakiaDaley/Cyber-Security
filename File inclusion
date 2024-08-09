@@ -1,0 +1,7 @@
+File inclusion is commonly found on templates or just frameworks in general  they'll typically have something by name of static folder and the urls can look as such
+index.php?page=something
+index.php?lang=something
+
+This can be used to traverse directories and read other information if not handled properly can leak a lot of private information webside.
+
+LFI local file inclusion
